@@ -29,7 +29,7 @@ export default function Home() {
 
       <Header />
 
-      <div className="fixed left-6 bottom-0 hidden xl:flex flex-col items-center space-y-6 z-20">
+      <div className="fixed left-6 bottom-0 hidden xl:flex flex-col items-center space-y-6 z-30">
         <div className="flex flex-col space-y-6">
           <a
             href="https://github.com"
@@ -53,7 +53,7 @@ export default function Home() {
         <div className="w-px h-28 bg-gradient-to-t from-primary/60 to-transparent"></div>
       </div>
 
-      <div className="fixed right-6 bottom-0 hidden xl:flex flex-col items-center space-y-6 z-20">
+      <div className="fixed right-6 bottom-0 hidden xl:flex flex-col items-center space-y-6 z-30">
         <a
           href="mailto:john.doe@example.com"
           className="group text-muted-foreground hover:text-primary transition-all duration-300 hover:-translate-y-2 transform writing-mode-vertical text-sm tracking-widest font-mono"
@@ -64,7 +64,9 @@ export default function Home() {
       </div>
 
       <main className="relative z-10">
-        <Hero />
+        <div id="about">
+          <Hero />
+        </div>
 
         <div className="flex justify-center py-12">
           <div className="flex items-center space-x-4">
@@ -75,7 +77,9 @@ export default function Home() {
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <WorkExperience />
+          <div id="experience" className="pt-20">
+            <WorkExperience />
+          </div>
 
           <div className="flex justify-center py-12">
             <div className="flex items-center space-x-4">
@@ -85,7 +89,9 @@ export default function Home() {
             </div>
           </div>
 
-          <Projects />
+          <div id="projects" className="pt-20">
+            <Projects />
+          </div>
 
           <div className="flex justify-center py-12">
             <div className="flex items-center space-x-4">
@@ -95,11 +101,13 @@ export default function Home() {
             </div>
           </div>
 
-          <Contact />
+          <div id="contact" className="pt-20">
+            <Contact />
+          </div>
         </div>
       </main>
 
-      <div className="fixed right-8 top-1/2 transform -translate-y-1/2 hidden lg:block z-20">
+      <div className="fixed right-8 top-1/2 transform -translate-y-1/2 hidden lg:block z-30">
         <div className="flex flex-col space-y-6">
           <div className="group cursor-pointer">
             <div className="w-3 h-3 rounded-full bg-primary animate-pulse group-hover:scale-125 transition-transform"></div>
