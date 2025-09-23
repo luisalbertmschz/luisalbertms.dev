@@ -58,78 +58,79 @@ interface Experience {
 const experiences: Experience[] = [
   {
     company: "Edesur Dominicana SA",
-    logo: "/edesur-dominicana-sa-logo-gray.png",
+    logo: "/logoEdeSur.png",
     location: "Santo Domingo, DR",
-    totalDuration: "2021 - Present",
+    totalDuration: "2023 - Present",
     industry: "Energy Distribution",
     positions: [
       {
-        title: "Analista de Sistemas",
-        duration: "Jan 2023 - Present",
+        title: "Systems Analyst / Implementation Support",
+        duration: "Apr 2023 - Present",
         description:
-          "Analizo y desarrollo sistemas empresariales para la gestión de distribución de energía. Arquitecto infraestructura de microservicios que mejoró la confiabilidad del sistema en 40% y redujo los tiempos de respuesta en 60%.",
-        technologies: ["React", "TypeScript", "PostgreSQL", "Docker", "AWS"],
+          "Led implementation activities of enterprise systems, coordinating technical requirements with cross-functional teams and business stakeholders. Successfully delivered 5+ implementation projects on time and within scope, while managing 3-4 concurrent implementations simultaneously.",
+        technologies: ["SQL Server", "Microsoft Project", "Jira", "Confluence", "MySQL", "Python"],
         achievements: [
-          "Improved system reliability by 40%",
-          "Reduced response times by 60%",
-          "Led team of 8 developers"
-        ]
-      },
-      {
-        title: "Software Engineer",
-        duration: "Mar 2021 - Dec 2022",
-        description:
-          "Desarrollé y mantuve aplicaciones de portal de clientes que sirven a más de 500K usuarios. Implementé sistemas de facturación en tiempo real y herramientas de reportes automatizados que redujeron el tiempo de procesamiento manual en 75%.",
-        technologies: ["JavaScript", "Vue.js", "MySQL", "PHP", "Laravel", "Redis"],
-        achievements: [
-          "Served 500K+ users",
-          "Reduced processing time by 75%",
-          "Implemented real-time systems"
+          "Delivered 5+ implementation projects on time and within scope",
+          "Reduced post-implementation errors by 20%",
+          "Resolved 95% of incidents within SLA",
+          "Improved system uptime by 15%",
+          "Cut data validation time by 25%",
+          "Maintained 99% adherence to project deadlines"
         ]
       },
     ],
   },
   {
     company: "HostSeven SRL",
-    logo: "/placeholder-ul0ji.png",
-    location: "Santiago, DR",
-    totalDuration: "2019 - 2021",
-    industry: "Web Hosting",
+    logo: "/LogoHostSevenPNG-2.png",
+    location: "Santo Domingo, DR",
+    totalDuration: "2019 - 2023",
+    industry: "CRM SaaS Solutions",
     positions: [
       {
-        title: "System Technical Support",
-        duration: "Jun 2020 - Feb 2021",
-        description:
-          "Brindé soporte técnico avanzado para sistemas de hosting web. Resolví problemas complejos de infraestructura y optimicé la configuración de servidores para mejorar el rendimiento y la estabilidad.",
-        technologies: ["Linux", "Nginx", "Apache", "MySQL", "cPanel", "WHM"],
-        achievements: [
-          "Improved server performance by 30%",
-          "Reduced support tickets by 50%",
-          "Enhanced system stability"
-        ]
-      },
-      {
-        title: "Technical Support",
-        duration: "Jan 2020 - May 2020",
-        description:
-          "Proporcioné soporte técnico de primer nivel para clientes de hosting web. Asistí en la configuración de dominios, correos electrónicos y bases de datos, resolviendo consultas técnicas de manera eficiente.",
-        technologies: ["cPanel", "WHM", "DNS", "Email", "FTP", "SSL"],
-        achievements: [
-          "High customer satisfaction scores",
-          "Fast ticket resolution times",
-          "Improved client onboarding"
-        ]
-      },
-      {
         title: "Programmer Analyst",
-        duration: "Aug 2019 - Dec 2019",
+        duration: "Feb 2022 - Apr 2023",
         description:
-          "Desarrollé aplicaciones web responsivas y páginas de aterrizaje para servicios de hosting. Colaboré con el equipo de diseño para implementar componentes UI pixel-perfect y mejoré las métricas de experiencia de usuario en 25%.",
-        technologies: ["HTML", "CSS", "JavaScript", "Bootstrap", "jQuery", "Sass"],
+          "Led implementation of financial services CRM solutions for enterprise clients, achieving 99% SLA adherence and supporting regulatory compliance. Optimized SQL queries and validation routines, reducing reporting errors by 20% and streamlining post-go-live support for four enterprise rollouts.",
+        technologies: ["SQL Server", "MySQL", "Jira", "Confluence", "PHP", "JavaScript", "REST APIs"],
         achievements: [
-          "Improved UX metrics by 25%",
-          "Pixel-perfect UI implementation",
-          "Responsive design expertise"
+          "Achieved 99% SLA adherence across enterprise implementations",
+          "Reduced reporting errors by 20%",
+          "Reduced ticket resolution time by 30%",
+          "Achieved 96% client satisfaction score",
+          "Increased user adoption rates by 45%",
+          "Reduced defects by 35%",
+          "Delivered 36+ bilingual training sessions"
+        ]
+      },
+      {
+        title: "System Support Agent",
+        duration: "Nov 2019 - Feb 2022",
+        description:
+          "Provided technical support for a CRM SaaS platform serving courier companies, banking institutions, and debt recovery agencies. Delivered support to 200+ external and internal users, resolving high volume of tickets with strong first-contact success rate.",
+        technologies: ["MySQL", "Confluence", "Ticket Management System", "SQL Analysis", "ServiceNow"],
+        achievements: [
+          "Supported 200+ external and internal users",
+          "Reduced recurring database issues by 15%",
+          "Lowered repeat support requests by 20%",
+          "Cut average resolution time by 15%",
+          "Maintained 98% SLA compliance rate",
+          "Resolved 30+ payments-related tickets monthly",
+          "Surpassed 95% issue resolution KPI"
+        ]
+      },
+      {
+        title: "Technical Support Intern",
+        duration: "Oct 2019 - Nov 2019",
+        description:
+          "Supported system implementations and onboarding, managing 100+ tickets monthly. Automated ETL and migration processes, ensuring data integrity during deployments. Authored self-service documentation, reducing response time by 30%.",
+        technologies: ["ServiceNow", "ETL", "MySQL", "Documentation Tools"],
+        achievements: [
+          "Managed 100+ tickets monthly",
+          "Reduced response time by 30%",
+          "Increased first-contact resolution by 25%",
+          "Resolved 60+ technical issues in 12 weeks",
+          "Mastered ServiceNow capabilities in 4 weeks"
         ]
       },
     ],
@@ -138,69 +139,69 @@ const experiences: Experience[] = [
 
 // Technical Skills organized by category
 const technicalSkills = {
-  "Frontend Development": {
-    icon: Code,
-    skills: ["React", "TypeScript", "Next.js", "Vue.js", "HTML5", "CSS3", "JavaScript", "Tailwind CSS", "Sass", "Responsive Design"],
+  "Database & Data Management": {
+    icon: Database,
+    skills: ["SQL Server", "MySQL", "Oracle", "Data Validation", "ETL", "Reporting", "Dashboards", "Data Integrity"],
     color: "from-blue-500/20 to-cyan-500/20",
     borderColor: "border-blue-500/30"
   },
-  "Design & UX": {
-    icon: Palette,
-    skills: ["UI/UX Design", "Figma", "Adobe Creative Suite", "Design Systems", "Component Libraries", "Accessibility", "User Research"],
-    color: "from-purple-500/20 to-pink-500/20",
-    borderColor: "border-purple-500/30"
-  },
-  "Systems & Architecture": {
-    icon: Server,
-    skills: ["Microservices", "REST APIs", "GraphQL", "System Design", "Performance Optimization", "Scalability", "Security"],
+  "Programming & Development": {
+    icon: Code,
+    skills: ["Python", "PHP (MVC)", "JavaScript", "HTML", "CSS", "Node.js", "REST APIs", "Git/GitHub"],
     color: "from-green-500/20 to-emerald-500/20",
     borderColor: "border-green-500/30"
   },
-  "DevOps & Tools": {
-    icon: Database,
-    skills: ["Docker", "AWS", "CI/CD", "Git", "Linux", "Nginx", "Monitoring", "Testing"],
+  "Project Management & Tools": {
+    icon: Server,
+    skills: ["Jira", "Confluence", "Microsoft Project", "Zendesk", "ServiceNow", "Postman", "Chrome DevTools"],
+    color: "from-purple-500/20 to-pink-500/20",
+    borderColor: "border-purple-500/30"
+  },
+  "Methodologies & Soft Skills": {
+    icon: Users,
+    skills: ["Agile (Scrum/Kanban)", "Testing Methodologies", "Change Management", "Bilingual (EN/ES)", "Problem Solving", "Stakeholder Management"],
     color: "from-orange-500/20 to-red-500/20",
     borderColor: "border-orange-500/30"
   }
 }
 
-// Tools I use for work - Flux Academy inspired
+// Tools I use for work - Based on real experience
 const workTools = [
   {
-    name: "VS Code",
-    icon: Code,
-    description: "My primary code editor with custom extensions for React, TypeScript, and web development.",
-    download: "https://code.visualstudio.com/"
-  },
-  {
-    name: "GitHub",
-    icon: Github,
-    description: "Version control and collaboration platform for all my projects and open source contributions.",
-    download: "https://github.com/"
-  },
-  {
-    name: "Figma",
-    icon: Palette,
-    description: "Design and prototyping tool for creating UI/UX designs and component libraries.",
-    download: "https://figma.com/"
-  },
-  {
-    name: "Docker",
-    icon: Database,
-    description: "Containerization platform for consistent development and deployment environments.",
-    download: "https://docker.com/"
-  },
-  {
-    name: "PostgreSQL",
+    name: "Jira",
     icon: Server,
-    description: "Advanced open source database for scalable applications and data management.",
-    download: "https://postgresql.org/"
+    description: "Project management and issue tracking tool for managing enterprise implementations and maintaining 99% on-time delivery rates.",
+    download: "https://www.atlassian.com/software/jira"
   },
   {
-    name: "AWS",
+    name: "SQL Server",
+    icon: Database,
+    description: "Enterprise database management system for data validation, reporting, and optimizing SQL queries that reduced errors by 20%.",
+    download: "https://www.microsoft.com/en-us/sql-server"
+  },
+  {
+    name: "Confluence",
+    icon: Code,
+    description: "Collaboration and documentation platform for creating comprehensive technical documentation and user guides.",
+    download: "https://www.atlassian.com/software/confluence"
+  },
+  {
+    name: "Python",
     icon: Cpu,
-    description: "Cloud computing platform for hosting, storage, and scalable infrastructure.",
-    download: "https://aws.amazon.com/"
+    description: "Programming language for data validation, ETL processes, and developing automation tools like DataMatch application.",
+    download: "https://www.python.org/"
+  },
+  {
+    name: "Microsoft Project",
+    icon: Calendar,
+    description: "Project management software for coordinating technical requirements and managing 3-4 concurrent implementations.",
+    download: "https://www.microsoft.com/en-us/microsoft-365/project"
+  },
+  {
+    name: "ServiceNow",
+    icon: Zap,
+    description: "IT service management platform for handling 100+ monthly tickets and achieving 95% issue resolution KPI.",
+    download: "https://www.servicenow.com/"
   }
 ]
 
@@ -254,7 +255,7 @@ export function WorkExperience() {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-            Over 4+ years of experience building scalable applications and leading development teams.
+            Over 4+ years of experience in enterprise systems implementation, CRM solutions, and technical support with a focus on data management and project delivery.
           </motion.p>
         </motion.div>
 
@@ -462,11 +463,17 @@ export function WorkExperience() {
                     {/* Company Header */}
                     <div className="flex items-start gap-6 mb-6">
                       {/* Company Logo */}
-                      <div className="w-20 h-20 rounded-2xl bg-white p-4 flex items-center justify-center shadow-lg border border-border/20 group-hover:shadow-xl transition-all duration-300">
+                      <div className={`w-20 h-20 rounded-2xl p-2 flex items-center justify-center shadow-lg border border-border/20 group-hover:shadow-xl transition-all duration-300 ${
+                        experience.company === "HostSeven SRL" 
+                          ? "bg-gradient-to-br from-gray-800 to-gray-900" 
+                          : "bg-gradient-to-br from-gray-50 to-gray-100"
+                      }`}>
                         <img
                           src={experience.logo}
                           alt={`${experience.company} logo`}
-                          className="w-full h-full object-contain max-w-full max-h-full"
+                          className={`w-full h-full object-contain max-w-full max-h-full scale-125 mx-auto ${
+                            experience.company === "HostSeven SRL" ? "brightness-110 contrast-110" : ""
+                          }`}
                         />
                       </div>
                       

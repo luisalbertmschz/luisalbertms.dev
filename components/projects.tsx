@@ -28,6 +28,11 @@ const techIcons: { [key: string]: string } = {
   "Tailwind CSS": "🎨",
   GraphQL: "🔮",
   "Socket.io": "🔌",
+  "Email API": "📧",
+  "WebSocket": "🔌",
+  "Pandas": "🐼",
+  "Excel API": "📊",
+  "Automation Scripts": "🤖",
 }
 
 const featuredProjects = [
@@ -35,10 +40,10 @@ const featuredProjects = [
     title: "Energy Management Dashboard",
     description:
       "A comprehensive dashboard for monitoring and managing energy distribution across multiple regions. Features real-time analytics, predictive maintenance alerts, and automated reporting systems.",
-    image: "/ai-content-generator-ui.png",
+    image: "/energy-management-dashboard.png",
     technologies: ["React", "TypeScript", "D3.js", "Node.js", "PostgreSQL"],
-    github: "#",
-    demo: "#",
+    github: "https://github.com/luisalbertmschz",
+    demo: "https://linkedin.com/in/luisalbertmschz",
     featured: true,
     metrics: {
       performance: "60% faster load times",
@@ -48,35 +53,35 @@ const featuredProjects = [
     }
   },
   {
-    title: "Customer Portal Platform",
+    title: "Tasky - Team Task Management App",
     description:
-      "Self-service portal allowing customers to manage their accounts, view billing history, report issues, and track service requests. Serves over 500K active users with 99.9% uptime.",
-    image: "/placeholder-x700o.png",
-    technologies: ["Vue.js", "Laravel", "MySQL", "Redis", "AWS"],
-    github: "#",
-    demo: "#",
+      "A lightweight task management application designed to track team weekly tasks with supervisor email notifications and Kanban views. Built as a lightweight alternative to Trello and similar apps for personal and team use.",
+    image: "/modern-customer-portal.png",
+    technologies: ["React", "Node.js", "PostgreSQL", "Email API", "WebSocket"],
+    github: "https://github.com/luisalbertmschz",
+    demo: "https://linkedin.com/in/luisalbertmschz",
     featured: true,
     metrics: {
-      performance: "75% faster processing",
-      users: "500K+ active users",
-      uptime: "99.9%",
-      scale: "Load balanced clusters"
+      performance: "Real-time updates",
+      users: "Team collaboration",
+      uptime: "99.8%",
+      scale: "Lightweight architecture"
     }
   },
   {
-    title: "Hosting Management System",
+    title: "DataMatch - Data Validation Tool",
     description:
-      "Complete hosting management platform with automated provisioning, monitoring, and billing integration. Reduced manual operations by 80% and improved customer satisfaction.",
-    image: "/placeholder-lxpy4.png",
-    technologies: ["Python", "Django", "React", "PostgreSQL", "Docker"],
-    github: "#",
-    demo: "#",
+      "Internal data validation application for cross-referencing Excel files with predefined structures to identify differences. Automatically generates update and validation scripts based on field data updates from user uploads, comparing against database extractions to validate information between user submissions and existing system data.",
+    image: "/datamatch-screenshot.png",
+    technologies: ["Python", "Pandas", "Excel API", "SQL", "Automation Scripts"],
+    github: "https://github.com/luisalbertmschz",
+    demo: "https://linkedin.com/in/luisalbertmschz",
     featured: true,
     metrics: {
-      performance: "50% faster deployments",
-      users: "5K+ hosting clients",
-      uptime: "99.8%",
-      scale: "Containerized architecture"
+      performance: "90% faster validation",
+      users: "Internal process tool",
+      uptime: "99.9%",
+      scale: "Batch processing"
     }
   },
 ]
@@ -86,8 +91,8 @@ const otherProjects = [
     title: "API Gateway Service",
     description: "Microservices API gateway with rate limiting, authentication, and monitoring capabilities.",
     technologies: ["Node.js", "Redis", "Docker"],
-    github: "#",
-    demo: "#",
+    github: "https://github.com/luisalbertmschz",
+    demo: "https://linkedin.com/in/luisalbertmschz",
     metrics: {
       performance: "40ms avg response",
       scale: "10K+ req/min"
@@ -97,8 +102,8 @@ const otherProjects = [
     title: "Real-time Chat Application",
     description: "WebSocket-based chat application with file sharing and message encryption.",
     technologies: ["React", "Node.js", "Socket.io"],
-    github: "#",
-    demo: "#",
+    github: "https://github.com/luisalbertmschz",
+    demo: "https://linkedin.com/in/luisalbertmschz",
     metrics: {
       performance: "Real-time messaging",
       scale: "1K+ concurrent users"
@@ -108,8 +113,8 @@ const otherProjects = [
     title: "E-commerce Analytics",
     description: "Advanced analytics dashboard for e-commerce platforms with predictive insights.",
     technologies: ["Python", "Django", "PostgreSQL"],
-    github: "#",
-    demo: "#",
+    github: "https://github.com/luisalbertmschz",
+    demo: "https://linkedin.com/in/luisalbertmschz",
     metrics: {
       performance: "2s data processing",
       scale: "1M+ data points"
@@ -119,8 +124,8 @@ const otherProjects = [
     title: "Mobile App Backend",
     description: "RESTful API backend for mobile applications with user management and data sync.",
     technologies: ["Laravel", "MySQL", "AWS"],
-    github: "#",
-    demo: "#",
+    github: "https://github.com/luisalbertmschz",
+    demo: "https://linkedin.com/in/luisalbertmschz",
     metrics: {
       performance: "200ms avg response",
       scale: "100K+ API calls/day"
@@ -130,8 +135,8 @@ const otherProjects = [
     title: "DevOps Automation",
     description: "CI/CD pipeline automation tools for streamlined deployment processes.",
     technologies: ["Docker", "Linux", "Nginx"],
-    github: "#",
-    demo: "#",
+    github: "https://github.com/luisalbertmschz",
+    demo: "https://linkedin.com/in/luisalbertmschz",
     metrics: {
       performance: "80% faster deployments",
       scale: "Multi-environment"
@@ -141,8 +146,8 @@ const otherProjects = [
     title: "Data Visualization Tool",
     description: "Interactive data visualization platform for business intelligence and reporting.",
     technologies: ["D3.js", "React", "TypeScript"],
-    github: "#",
-    demo: "#",
+    github: "https://github.com/luisalbertmschz",
+    demo: "https://linkedin.com/in/luisalbertmschz",
     metrics: {
       performance: "Smooth 60fps",
       scale: "Real-time updates"

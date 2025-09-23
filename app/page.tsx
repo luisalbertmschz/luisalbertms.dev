@@ -3,7 +3,8 @@ import { Hero } from "@/components/hero"
 import { WorkExperience } from "@/components/work-experience"
 import { Projects } from "@/components/projects"
 import { Contact } from "@/components/contact"
-import { Github, Linkedin, Mail } from "lucide-react"
+import { FrostGlassBottom } from "@/components/frost-glass-bottom"
+import { SidebarLinks } from "@/components/sidebar-links"
 
 export default function Home() {
   return (
@@ -29,39 +30,7 @@ export default function Home() {
 
       <Header />
 
-      <div className="fixed left-6 bottom-0 hidden xl:flex flex-col items-center space-y-6 z-30">
-        <div className="flex flex-col space-y-6">
-          <a
-            href="https://github.com"
-            className="group text-muted-foreground hover:text-primary transition-all duration-300 hover:-translate-y-2 transform hover:scale-110"
-          >
-            <Github className="w-6 h-6" />
-          </a>
-          <a
-            href="https://linkedin.com"
-            className="group text-muted-foreground hover:text-primary transition-all duration-300 hover:-translate-y-2 transform hover:scale-110"
-          >
-            <Linkedin className="w-6 h-6" />
-          </a>
-          <a
-            href="mailto:john.doe@example.com"
-            className="group text-muted-foreground hover:text-primary transition-all duration-300 hover:-translate-y-2 transform hover:scale-110"
-          >
-            <Mail className="w-6 h-6" />
-          </a>
-        </div>
-        <div className="w-px h-28 bg-gradient-to-t from-primary/60 to-transparent"></div>
-      </div>
-
-      <div className="fixed right-6 bottom-0 hidden xl:flex flex-col items-center space-y-6 z-30">
-        <a
-          href="mailto:john.doe@example.com"
-          className="group text-muted-foreground hover:text-primary transition-all duration-300 hover:-translate-y-2 transform writing-mode-vertical text-sm tracking-widest font-mono"
-        >
-          john.doe@example.com
-        </a>
-        <div className="w-px h-28 bg-gradient-to-t from-primary/60 to-transparent"></div>
-      </div>
+      <SidebarLinks />
 
       <main className="relative z-10">
         <div id="about">
@@ -126,6 +95,9 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      {/* Frost Glass Bottom Effect */}
+      <FrostGlassBottom />
     </div>
   )
 }

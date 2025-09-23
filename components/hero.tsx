@@ -39,7 +39,7 @@ export function Hero() {
               <div className="space-y-4">
                 <p className="text-primary font-mono text-sm">Hi, my name is</p>
                 <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold leading-none">
-                  <span className="text-foreground block">John Doe</span>
+                  <span className="text-foreground block">Luis Albert</span>
                   <span className="text-muted-foreground/60 block text-3xl sm:text-5xl lg:text-6xl mt-2">
                     Systems Engineer
                   </span>
