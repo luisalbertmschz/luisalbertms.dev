@@ -24,25 +24,25 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Your Name - Software Engineer",
-  description: "Software Engineer specializing in building exceptional digital experiences",
-  generator: "v0.app",
-  keywords: "software engineer, web developer, full stack developer, react, next.js",
-  authors: [{ name: "Your Name" }],
-  creator: "Your Name",
+  title: "Luis A. Morla S. - Systems Engineer",
+  description: "Systems Engineer specializing in enterprise systems implementation, CRM solutions, and technical support with focus on data management and project delivery",
+  generator: "Next.js",
+  keywords: "systems engineer, software engineer, web developer, full stack developer, react, next.js, data management, CRM solutions",
+  authors: [{ name: "Luis A. Morla S." }],
+  creator: "Luis A. Morla S.",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://yourwebsite.com",
-    title: "Your Name - Software Engineer",
-    description: "Software Engineer specializing in building exceptional digital experiences",
-    siteName: "Your Name Portfolio",
+    url: "https://lamorlas.vercel.app",
+    title: "Luis A. Morla S. - Systems Engineer",
+    description: "Systems Engineer specializing in enterprise systems implementation, CRM solutions, and technical support with focus on data management and project delivery",
+    siteName: "Luis A. Morla S. Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Your Name - Software Engineer",
-    description: "Software Engineer specializing in building exceptional digital experiences",
-    creator: "@yourusername",
+    title: "Luis A. Morla S. - Systems Engineer",
+    description: "Systems Engineer specializing in enterprise systems implementation, CRM solutions, and technical support with focus on data management and project delivery",
+    creator: "@luisalbertmschz",
   },
 }
 
