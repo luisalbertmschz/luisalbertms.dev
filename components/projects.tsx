@@ -43,7 +43,7 @@ const featuredProjects = [
     image: "/energy-management-dashboard.png",
     technologies: ["React", "TypeScript", "D3.js", "Node.js", "PostgreSQL"],
     github: "https://github.com/luisalbertmschz",
-    demo: "https://linkedin.com/in/luisalbertmschz",
+    demo: "https://www.linkedin.com/in/luisalbertmorlas",
     featured: true,
     metrics: {
       performance: "60% faster load times",
@@ -59,7 +59,7 @@ const featuredProjects = [
     image: "/modern-customer-portal.png",
     technologies: ["React", "Node.js", "PostgreSQL", "Email API", "WebSocket"],
     github: "https://github.com/luisalbertmschz",
-    demo: "https://linkedin.com/in/luisalbertmschz",
+    demo: "https://www.linkedin.com/in/luisalbertmorlas",
     featured: true,
     metrics: {
       performance: "Real-time updates",
@@ -75,7 +75,7 @@ const featuredProjects = [
     image: "/datamatch-screenshot.png",
     technologies: ["Python", "Pandas", "Excel API", "SQL", "Automation Scripts"],
     github: "https://github.com/luisalbertmschz",
-    demo: "https://linkedin.com/in/luisalbertmschz",
+    demo: "https://www.linkedin.com/in/luisalbertmorlas",
     featured: true,
     metrics: {
       performance: "90% faster validation",
@@ -92,7 +92,7 @@ const otherProjects = [
     description: "Microservices API gateway with rate limiting, authentication, and monitoring capabilities.",
     technologies: ["Node.js", "Redis", "Docker"],
     github: "https://github.com/luisalbertmschz",
-    demo: "https://linkedin.com/in/luisalbertmschz",
+    demo: "https://www.linkedin.com/in/luisalbertmorlas",
     metrics: {
       performance: "40ms avg response",
       scale: "10K+ req/min"
@@ -103,7 +103,7 @@ const otherProjects = [
     description: "WebSocket-based chat application with file sharing and message encryption.",
     technologies: ["React", "Node.js", "Socket.io"],
     github: "https://github.com/luisalbertmschz",
-    demo: "https://linkedin.com/in/luisalbertmschz",
+    demo: "https://www.linkedin.com/in/luisalbertmorlas",
     metrics: {
       performance: "Real-time messaging",
       scale: "1K+ concurrent users"
@@ -114,7 +114,7 @@ const otherProjects = [
     description: "Advanced analytics dashboard for e-commerce platforms with predictive insights.",
     technologies: ["Python", "Django", "PostgreSQL"],
     github: "https://github.com/luisalbertmschz",
-    demo: "https://linkedin.com/in/luisalbertmschz",
+    demo: "https://www.linkedin.com/in/luisalbertmorlas",
     metrics: {
       performance: "2s data processing",
       scale: "1M+ data points"
@@ -125,7 +125,7 @@ const otherProjects = [
     description: "RESTful API backend for mobile applications with user management and data sync.",
     technologies: ["Laravel", "MySQL", "AWS"],
     github: "https://github.com/luisalbertmschz",
-    demo: "https://linkedin.com/in/luisalbertmschz",
+    demo: "https://www.linkedin.com/in/luisalbertmorlas",
     metrics: {
       performance: "200ms avg response",
       scale: "100K+ API calls/day"
@@ -136,7 +136,7 @@ const otherProjects = [
     description: "CI/CD pipeline automation tools for streamlined deployment processes.",
     technologies: ["Docker", "Linux", "Nginx"],
     github: "https://github.com/luisalbertmschz",
-    demo: "https://linkedin.com/in/luisalbertmschz",
+    demo: "https://www.linkedin.com/in/luisalbertmorlas",
     metrics: {
       performance: "80% faster deployments",
       scale: "Multi-environment"
@@ -147,7 +147,7 @@ const otherProjects = [
     description: "Interactive data visualization platform for business intelligence and reporting.",
     technologies: ["D3.js", "React", "TypeScript"],
     github: "https://github.com/luisalbertmschz",
-    demo: "https://linkedin.com/in/luisalbertmschz",
+    demo: "https://www.linkedin.com/in/luisalbertmorlas",
     metrics: {
       performance: "Smooth 60fps",
       scale: "Real-time updates"

@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button"
 import { ArrowDown, Code, Palette, Zap, Database, Server } from "lucide-react"
 import { useEffect, useState } from "react"
 import Link from "next/link"
+import { CVViewerButton } from "@/components/cv-viewer"
 
 export function Hero() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
@@ -68,13 +69,13 @@ export function Hero() {
                     <ArrowDown className="ml-2 h-4 w-4 group-hover:translate-y-1 transition-transform" />
                   </Link>
                 </Button>
-                <Button
+                <CVViewerButton
                   size="lg"
                   variant="ghost"
                   className="text-muted-foreground hover:text-primary font-mono px-6 py-3"
                 >
                   Download Resume
-                </Button>
+                </CVViewerButton>
               </div>
             </div>
 
