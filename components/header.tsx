@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
+import { CVViewerButton } from "@/components/cv-viewer"
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -72,12 +73,10 @@ export function Header() {
               <span className="text-primary mr-2">04.</span>
               <span className="group-hover:text-primary">Contact</span>
             </button>
-            <Button
+            <CVViewerButton
               variant="outline"
               className="ml-4 border-primary text-primary hover:bg-primary/10 font-mono text-sm bg-transparent"
-            >
-              Resume
-            </Button>
+            />
           </nav>
 
           {/* Mobile Menu Button */}
@@ -119,12 +118,10 @@ export function Header() {
               >
                 <span className="text-primary mr-2">04.</span> Contact
               </button>
-              <Button
+              <CVViewerButton
                 variant="outline"
                 className="mx-auto border-primary text-primary hover:bg-primary/10 font-mono bg-transparent"
-              >
-                Resume
-              </Button>
+              />
             </div>
           </nav>
         )}

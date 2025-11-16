@@ -2,6 +2,11 @@
 
 import { useEffect, useState } from "react"
 import { Github, Linkedin, Mail } from "lucide-react"
+import { ObfuscatedEmail, ObfuscatedEmailButton } from "@/components/obfuscated-email"
+
+// Obfuscated email parts (encoded to prevent bot scraping)
+const ENCODED_EMAIL_LOCAL = "6VGaj5WYz1GdyVmYsF2cpVHb"
+const ENCODED_EMAIL_DOMAIN = "t92YuwWah12Z"
 
 export function SidebarLinks() {
   const [showLinks, setShowLinks] = useState(false)
@@ -36,28 +41,31 @@ export function SidebarLinks() {
             <Github className="w-6 h-6" />
           </a>
           <a
-            href="https://linkedin.com/in/luisalbertmschz"
+            href="https://www.linkedin.com/in/luisalbertmorlas"
+            target="_blank"
+            rel="noopener noreferrer"
             className="group text-muted-foreground hover:text-primary transition-all duration-300 hover:-translate-y-2 transform hover:scale-110"
           >
             <Linkedin className="w-6 h-6" />
           </a>
-          <a
-            href="mailto:luisalbertmschz@gmail.com"
+          <ObfuscatedEmail
+            encodedLocal={ENCODED_EMAIL_LOCAL}
+            encodedDomain={ENCODED_EMAIL_DOMAIN}
             className="group text-muted-foreground hover:text-primary transition-all duration-300 hover:-translate-y-2 transform hover:scale-110"
           >
             <Mail className="w-6 h-6" />
-          </a>
+          </ObfuscatedEmail>
         </div>
         <div className="w-px h-28 bg-gradient-to-t from-primary/60 to-transparent"></div>
       </div>
 
       <div className="fixed right-6 bottom-0 hidden xl:flex flex-col items-center space-y-6 z-30">
-        <a
-          href="mailto:luisalbertmschz@gmail.com"
+        <ObfuscatedEmail
+          encodedLocal={ENCODED_EMAIL_LOCAL}
+          encodedDomain={ENCODED_EMAIL_DOMAIN}
           className="group text-muted-foreground hover:text-primary transition-all duration-300 hover:-translate-y-2 transform writing-mode-vertical text-sm tracking-widest font-mono"
-        >
-          luisalbertmschz@gmail.com
-        </a>
+          showEmail={true}
+        />
         <div className="w-px h-28 bg-gradient-to-t from-primary/60 to-transparent"></div>
       </div>
     </>
